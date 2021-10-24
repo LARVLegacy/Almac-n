@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{535960A2-38D7-4523-BEA1-04931A46EBAA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>App_almacen</RootNamespace>
+    <AssemblyName>App_almacen</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI_Informacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Informacion.Designer.cs">
+      <DependentUpon>GUI_Informacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Pedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Pedidos.Designer.cs">
+      <DependentUpon>GUI_Pedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Perfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Perfiles.Designer.cs">
+      <DependentUpon>GUI_Perfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Permisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Permisos.Designer.cs">
+      <DependentUpon>GUI_Permisos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Principal.Designer.cs">
+      <DependentUpon>GUI_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Empleados.Designer.cs">
+      <DependentUpon>GUI_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Login.Designer.cs">
+      <DependentUpon>GUI_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Registros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Registros.Designer.cs">
+      <DependentUpon>GUI_Registros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal_Main.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI_Empleados.resx">
+      <DependentUpon>GUI_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Informacion.resx">
+      <DependentUpon>GUI_Informacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Pedidos.resx">
+      <DependentUpon>GUI_Pedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Perfiles.resx">
+      <DependentUpon>GUI_Perfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Principal.resx">
+      <DependentUpon>GUI_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Login.resx">
+      <DependentUpon>GUI_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Registros.resx">
+      <DependentUpon>GUI_Registros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,6 @@
+C:\Users\aleja\Desktop\App_almacen\Capa_entidades\obj\Debug\Capa_Entidad.csproj.AssemblyReference.cache
+C:\Users\aleja\Desktop\App_almacen\Capa_entidades\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\aleja\Desktop\App_almacen\Capa_entidades\obj\Debug\Capa_entidades_MarkupCompile.cache
+C:\Users\aleja\Desktop\App_almacen\Capa_entidades\obj\Debug\Capa_entidades_MarkupCompile.lref
+C:\Users\aleja\Desktop\App_almacen\Capa_entidades\obj\Debug\Capa_entidades.dll
+C:\Users\aleja\Desktop\App_almacen\Capa_entidades\obj\Debug\Capa_entidades.pdb

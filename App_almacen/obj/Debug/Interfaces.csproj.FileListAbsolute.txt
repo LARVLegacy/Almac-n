@@ -1,0 +1,16 @@
+C:\Users\aleja\Desktop\App_almacen\App_almacen\bin\Debug\App_almacen.exe.config
+C:\Users\aleja\Desktop\App_almacen\App_almacen\bin\Debug\App_almacen.exe
+C:\Users\aleja\Desktop\App_almacen\App_almacen\bin\Debug\App_almacen.pdb
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\App_almacen.Properties.Resources.resources
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\Interfaces.csproj.GenerateResource.cache
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\App_almacen.exe
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\App_almacen.pdb
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\App_almacen.GUI_Principal.resources
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\App_almacen.GUI_Empleados.resources
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\App_almacen.GUI_Login.resources
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\App_almacen.GUI_Perfiles.resources
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\App_almacen.GUI_Registros.resources
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\App_almacen.GUI_Informacion.resources
+C:\Users\aleja\Desktop\App_almacen\App_almacen\obj\Debug\App_almacen.GUI_Pedidos.resources
